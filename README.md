@@ -1,7 +1,7 @@
 # Comp Sci 4482 App 1: Ruby's 2D Adventure
 
 ### Author: Ahmad Abu Shawarib
-### Date: Sept 18, 2023
+### Date: Sept 19, 2023
 
 ## Description:
 >This a the README for Lab 1. 
