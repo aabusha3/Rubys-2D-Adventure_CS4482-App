@@ -23,6 +23,8 @@ public class RubyController : MonoBehaviour
     Vector2 lookDirection = new Vector2(1, 0);
 
     public GameObject projectilePrefab;
+    public GameObject meleePrefab;
+
 
     void Start()
     {
@@ -56,9 +58,13 @@ public class RubyController : MonoBehaviour
             if (invincibleTimer < 0) isInvincible = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             Launch();
+        }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Melee();
         }
     }
 
@@ -94,4 +100,11 @@ public class RubyController : MonoBehaviour
 
         animator.SetTrigger("Launch");
     }
+
+    void Melee()
+    {
+        GameObject meleeObject = Instantiate(meleePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+        animator.SetTrigger("Launch");
+    }
+
 }

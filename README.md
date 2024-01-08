@@ -1,7 +1,6 @@
 # Comp Sci 4482 App 1: Ruby's 2D Adventure
 
 ### Author: Ahmad Abu Shawarib
-### Date: Sept 19, 2023
 
 ## Description:
 >This a the README for Lab 1. 
@@ -12,7 +11,7 @@
 >The movement controls are universal up, down, left, right,
 >so for keyboard 'WASD' or arrowkeys.
 >
->The tutorials sets the shoot key as key 'C'.
+>Shoot with 'J', Slash with'K'.
 
 ## Components
 >This .zip file should include the Assets, Packages, and ProjectSettings folders for rebuild purposes, and a Build folder that has the game excutable.
@@ -27,4 +26,4 @@
 >- [Cinemachine](https://unity.com/unity/features/editor/art-and-design/cinemachine)
 
 ## Beyond The Tutorial Additions
->I haven't added a this feature yet, but intend on adding a melee attack to complement the ranged attack
+>A melee attack has been implemented
